@@ -1,0 +1,103 @@
+*{
+	font-family: helvetica;
+	box-sizing: border-box;
+}
+
+
+
+.top-nav{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	min-width: 100%;
+	height: 50px;
+	overflow: auto;
+	padding-top: 10px;
+
+	
+}
+
+.logo{
+	float: left;
+	margin-left: 5%;
+	width: 212px;
+	height: 40px;
+}
+
+.top-links{
+	float: right;
+	margin-top: 10px;
+	margin-right: 5%;
+}
+
+
+.top-links li{
+	display: inline-block;
+	margin-right: 20px;
+	font-family: helvetica;
+
+}
+
+
+.top-links li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.top-links li a:hover{
+	background-color: yellow;
+}
+
+
+.content{
+padding-top: 40px;
+
+}
+
+.top {
+	margin-top: 50px;
+}
+.hero{
+	width: 892px;
+	height: 544px;
+	margin: 0 auto;
+	text-align: center;
+	background: url("images/confetti.jpg") no-repeat 0 0;
+}
+
+.headline {
+	width: 720px;
+	margin-top: 50px 
+}
+
+h1{
+	font-size: 25px;
+	font-family: helvetica;
+	margin-top: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+
+}
+
+.quotes{
+	overflow: auto;
+}
+
+.qoutecolumn{
+	clear:both;
+	margin-top: 30px;
+	float: left;
+	display: inline-block;
+	width: 200px;
+}
+
+
+
+
+
